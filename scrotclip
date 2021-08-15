@@ -4,5 +4,5 @@ if [ -f /tmp/scrot.png ]; then
     rm /tmp/scrot.png
 fi
 
-scrot -s /tmp/scrot.png
+scrot -f -s /tmp/scrot.png
 xclip -sel c -t image/png < /tmp/scrot.png
